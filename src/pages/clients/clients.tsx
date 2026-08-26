@@ -1,0 +1,114 @@
+import {Grid, styled, Typography, Card} from "@mui/material"
+
+
+    const StyledClient = styled("div")(() =>({
+        backgroundColor: "#E6CFA3",
+        backgroundSize: "400% 400%",
+        justifyContent:"center",
+        height:"100vh",
+        display:"flex",
+        alignItems:"center",
+        position: "relative",
+        textAlign:"center",
+
+  
+}))
+
+
+    const StyledCard = styled(Card)(() => ({
+  backgroundColor: "#DE994E",
+  border: "1px solid rgba(255,255,255,0.08)",
+  borderRadius: "16px",
+  overflow: "hidden",
+  transition: "transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease",
+  height: "100%",
+  display: "flex",
+  flexDirection: "column",
+  cursor: "pointer",
+  padding:"1%",
+
+
+  "&:hover": {
+    transform: "translateY(-10px) scale(1.02)",
+    boxShadow: "0 24px 48px rgba(0,0,0,0.5), 0 0 0 1px rgba(100,160,255,0.3)",
+    borderColor: "rgba(100,160,255,0.4)",
+
+    "& .card-image": {
+      transform: "scale(1.08)",
+    },
+    "& .card-overlay": {
+      opacity: 1,
+    },
+  },
+}))
+
+export default function Clients(){
+
+    return(
+         <StyledClient>
+                <Grid container  display={"flex"} alignItems={"center"} justifyContent={"center"} >
+                   <Grid size= {2} margin={"5%"}>     
+                        <StyledCard>
+                            <Typography
+                            variant="body2"
+                            color="rgba(255,255,255,0.6)"
+                            lineHeight={1.7}
+                            mb={2}
+                            >
+                                "Bom diaaa meu filho, paz 
+                                Filho, você não é comum.
+                                Existe algo dentro de você que é forte, valioso e cheio de propósito… mesmo quando você ainda não percebe totalmente."
+                            </Typography>
+                            <Typography variant="h6"
+                            color="primary.contrastText"
+                            fontWeight={300}
+                            mb={1}> 
+                                Paciente 1
+                            </Typography>   
+                        </StyledCard>
+                    </Grid>
+                    <Grid size= {2} margin={"5%"}>   
+                        <StyledCard>
+                            <Typography
+                            variant="body2"
+                            color="rgba(255,255,255,0.6)"
+                            lineHeight={1.7}
+                            mb={2}
+                            >
+                                "Bom diaaa meu filho, paz 💙
+Filho, você não é comum.
+Existe algo dentro de você que é forte, valioso e cheio de propósito… mesmo quando você ainda não percebe totalmente."
+                            </Typography>
+                            <Typography variant="h6"
+                            color="primary.contrastText"
+                            fontWeight={300}
+                            mb={1}> 
+                                Paciente 2
+                            </Typography>   
+                        </StyledCard>
+                    </Grid>
+                    <Grid size= {2} margin={"5%"}>   
+                        <StyledCard>
+                            <Typography
+                            variant="body2"
+                            color="rgba(255,255,255,0.6)"
+                            lineHeight={1.7}
+                            mb={2}
+                            >
+                                "Bom diaaa meu filho, paz 💙
+Filho, você não é comum.
+Existe algo dentro de você que é forte, valioso e cheio de propósito… mesmo quando você ainda não percebe totalmente."
+                            </Typography>
+                            <Typography variant="h6"
+                            color="primary.contrastText"
+                            fontWeight={300}
+                            mb={1}> 
+                                Paciente 3
+                            </Typography>   
+                        </StyledCard>
+                    </Grid>
+                    
+                </Grid>
+                </StyledClient>
+    )
+}
