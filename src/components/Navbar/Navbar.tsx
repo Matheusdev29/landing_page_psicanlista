@@ -4,7 +4,7 @@ import  {styled, Toolbar, AppBar, MenuItem, Typography} from "@mui/material"
  const StyledBar = styled(Toolbar)(()=> ({
     display:"flex",
     justifyContent:"right",
-    backgroundColor:"#DE994E"
+    backgroundColor:"#252C3A"
   }))
 
 export default function NavBar(){

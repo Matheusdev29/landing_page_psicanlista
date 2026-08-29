@@ -6,7 +6,7 @@ const StyledFooter = styled("div")(() => ({
   alignItems:"center",
   justifyContent:"center",
   gap:"10px",
-  backgroundColor: "#DE994E"
+  backgroundColor: "#252C3A"
 }))
 
 export default function Footer(){
