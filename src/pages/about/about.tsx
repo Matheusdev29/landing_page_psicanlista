@@ -1,6 +1,6 @@
 import { styled, Grid, Typography } from "@mui/material"
        const StyledClient = styled("div")(() =>({
-        backgroundColor: "#E6CFA3",
+        backgroundColor: "#0F141C",
         backgroundSize: "400% 400%",
         justifyContent:"center",
         height:"100vh",
@@ -17,7 +17,7 @@ export default function About() {
                    <Grid size={12} >     
                         <Typography 
                         variant="h6"
-                            color="#DE994E"
+                            color="#F4F6F8"
                             fontWeight={700}
                             mb={1}>  
                             Sobre mim

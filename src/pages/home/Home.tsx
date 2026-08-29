@@ -10,7 +10,7 @@ import background from "../../assets/image/escritoriopsicanalise.jpg"
 
 
     const StyledHome = styled("div")(() =>({
-        backgroundColor: "#E6CFA3",
+        backgroundColor: "#0F141C",
         backgroundSize: "400% 400%",
         justifyContent:"center",
         height:"100vh",
@@ -24,16 +24,16 @@ import background from "../../assets/image/escritoriopsicanalise.jpg"
 export default function Home() {
     return(
         <StyledHome>
-        <Grid container  display={"flex"} alignItems={"center"} justifyContent={"center"}>
-           <Grid size={4} >     
+        <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ padding: 2 }}>
+                   <Grid size={{ xs: 12, sm: 6, md:6}} >     
                 <StyledImg src = {Avatar}/>           </Grid>
-            <Grid size={8}>
-                <Typography variant="h2" color = "#DE994E" fontWeight={300} mb={1}>
+            <Grid size={{ xs: 12, sm: 6, md: 6}}>
+                <Typography variant="h2" color = "#F4F6F8" fontWeight={300} mb={1}>
                 Sou Alessandra Souza
                 </Typography>
                 <Typography 
                 variant="h6"
-                color="#DE994E"
+                color="#F4F6F8"
                 fontWeight={700}
                 mb={1} > 
                     Sou psicanalista formada, com especilaização em ...
