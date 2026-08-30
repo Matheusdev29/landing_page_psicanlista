@@ -47,7 +47,13 @@ export default function Clients(){
     return(
          <StyledClient>
                 <Grid container spacing={4} justifyContent="center" alignItems="stretch" sx={{ padding: 2 }}>
-                   <Grid size={{ xs: 12, sm: 6, md: 3}}>     
+                   <Grid size={12}>
+                    <Typography 
+                        variant="h2" color = "#F4F6F8" fontWeight={300} mb={1}>  
+                            Depoimentos
+                        </Typography> 
+                   </Grid>
+                   <Grid size={{ xs: 12, sm: 6, md: 3}}>    
                         <StyledCard>
                             <Typography
                             variant="body2"
