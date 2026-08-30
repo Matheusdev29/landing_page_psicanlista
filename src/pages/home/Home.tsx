@@ -36,7 +36,7 @@ export default function Home() {
                 color="#F4F6F8"
                 fontWeight={700}
                 mb={1} > 
-                    Sou psicanalista formada, com especilaização em ...
+                    Sou psicanalista formada, com especialização em ...
 
                 </Typography>   
             </Grid>
